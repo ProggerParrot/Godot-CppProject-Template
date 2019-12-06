@@ -9,4 +9,4 @@ You can use it to export youre own Godot Engine dll files with your gameplaycode
 I Also uploaded a video, where I show you how this thing works. :)
 
 How to use this project: 
-https://www.youtube.com/channel/UCrE_VlU00dYl0qwOoNKa4sQ
+https://youtu.be/aPDO9nAP5oM
