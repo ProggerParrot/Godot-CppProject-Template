@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "E:\\Godot CPP Bindings\\headers",
+                "E:\\Godot CPP Bindings\\include",
+                "E:\\Godot CPP Bindings\\include\\core",
+                "E:\\Godot CPP Bindings\\include\\gen"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "D:/Programming/MinGW/bin/g++.exe",
+            "cppStandard": "c++17",
+            "cStandard": "c11"
+        }
+    ],
+    "version": 4
+}

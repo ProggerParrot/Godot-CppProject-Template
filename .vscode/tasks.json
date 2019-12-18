@@ -1,0 +1,30 @@
+{
+
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "build_release",
+            "command": "scons",
+            "args": [
+                "target=release",
+                "platfrom=windows"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "type": "shell",
+            "label": "build_debug",
+            "command": "scons",
+            "args": [
+                "target=debug",
+                "platfrom=windows"
+            ],
+            "problemMatcher": []
+        }
+    ]
+}
