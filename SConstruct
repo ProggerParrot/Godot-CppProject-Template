@@ -38,7 +38,7 @@ if env['target'] == 'debug':
     env.Append(CCFLAGS = '/FS')
 
     Mkdir('godot\\native')
-    env.SharedLibrary(target='godot\\native\\tost', source=Glob('src\\*.cpp'), INCLUDE = include_path, LIBS = libs[0], LIBPATH = libs_path)
+    env.SharedLibrary(target='godot\\native\\gdns_lib-D', source=Glob('src\\*.cpp'), INCLUDE = include_path, LIBS = libs[0], LIBPATH = libs_path)
     
 else:
     env.Append(CCFLAGS = '/W3')
@@ -50,7 +50,7 @@ else:
     env.Append(CCFLAGS = '/FS')
 
     Mkdir('godot\\native')
-    env.SharedLibrary(target='godot\\native\\test', source=Glob('src\\*.cpp'), INCLUDE = include_path, LIBS = libs[1], LIBPATH = libs_path)
+    env.SharedLibrary(target='godot\\native\\gdns_lib-R', source=Glob('src\\*.cpp'), INCLUDE = include_path, LIBS = libs[1], LIBPATH = libs_path)
 
 
 
