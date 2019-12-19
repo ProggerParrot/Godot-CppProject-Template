@@ -25,6 +25,24 @@
                 "platfrom=windows"
             ],
             "problemMatcher": []
+        },
+
+        
+        {
+            "type": "shell",
+            "label": "build_engine_x64",
+            "dependsOn":["build_engine"],
+            "command": "scons",
+            "args": [
+                "target=debug",
+                "platfrom=windows",
+                "arch=amd64",
+                "-j 8"
+            ],
+            "problemMatcher": [],
+            "options": {
+                "cwd": "${workspaceRoot}/Engine"
+              }
         }
     ]
 }
