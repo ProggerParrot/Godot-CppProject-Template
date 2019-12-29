@@ -19,3 +19,5 @@ https://youtu.be/aPDO9nAP5oM
 
 Setup complete CppProject with vs-code workflow:
 
+https://youtu.be/kn8H2nlx3xY
+
